@@ -13,10 +13,10 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 public class CompilationDto {
-    private List<EventShortDto> events;
-
     @NotNull
     private Long id;
+
+    private List<EventShortDto> events;
 
     @NotNull
     private boolean pinned;
